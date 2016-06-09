@@ -20,7 +20,7 @@ public class Snitcher {
 
         CloseableHttpResponse response = httpclient.execute(request);
         int status = response.getStatusLine().getStatusCode();
-        if(status > 300) {
+        if(status >= 300) {
             HttpEntity entity = response.getEntity();
             String body = entity != null ? EntityUtils.toString(entity) : null;
             throw new IOException(status + " - " + body);
