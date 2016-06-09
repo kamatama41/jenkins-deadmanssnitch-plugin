@@ -57,11 +57,6 @@ public class DeadMansSnitchNotifier extends Notifier {
         return true;
     }
 
-    @Override
-    public DescriptorImpl getDescriptor() {
-        return (DescriptorImpl)super.getDescriptor();
-    }
-
     @Extension
     public static final class DescriptorImpl extends BuildStepDescriptor<Publisher> {
 
