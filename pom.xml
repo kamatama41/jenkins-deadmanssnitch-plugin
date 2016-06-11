@@ -30,7 +30,7 @@
 
   <name>Dead Man's Snitch Plugin</name>
   <description>This plugin allows to notify build succeeded to Dead Man's Snitch.</description>
-  <url>https://wiki.jenkins-ci.org/display/JENKINS/Dead+Mans+Snitch+Plugin</url>
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/Dead+Man%27s+Snitch+Plugin</url>
 
   <!-- The default licence for Jenkins OSS Plugins is MIT. Substitute for the applicable one if needed. -->
 
